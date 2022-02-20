@@ -178,7 +178,7 @@ ul li{
         background-color: #fff;
     }
 } */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .container {
         width: 100%;
         margin: auto;
@@ -190,7 +190,9 @@ ul li{
         flex-direction: column-reverse;
         margin-top: 100px;
     }
-
+    .hero-text {
+        width: 100%;
+    }
     .hero-image {
         display: flex;
         justify-content: center;
@@ -215,5 +217,6 @@ ul li{
     .menu{
         justify-content: center;
     }
+    
 
 }
